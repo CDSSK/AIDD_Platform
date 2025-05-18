@@ -8,6 +8,19 @@ If you want to perform prediction, set the Loss Function option in the Modeling 
 In your dataset, designate the SMILES column as "Smiles" and set the target variable to "Y".
 
 ### SMILES Preview
+| Property             | Description                                                                                                                                                  |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **MW**               | Molecular Weight: the total mass of the molecule (g/mol), calculated by summing the atomic weights of all atoms.                                             |
+| **LogP**             | Octanol–Water Partition Coefficient: the log₁₀ of the ratio of a compound’s concentration in octanol vs. water, indicating lipophilicity.                       |
+| **HBA**              | Number of Hydrogen Bond Acceptors: count of atoms (usually oxygen and nitrogen) that can accept hydrogen bonds.                                               |
+| **HBD**              | Number of Hydrogen Bond Donors: count of hydrogen atoms bound to electronegative atoms (O or N) that can donate hydrogen bonds.                               |
+| **CSP3**             | Fraction of sp³ Carbons: proportion of carbon atoms that are sp³ hybridized, a measure of molecular saturation and 3D character.                               |
+| **NumRotBond**       | Number of Rotatable Bonds: count of single, non-ring bonds around which free rotation can occur, reflecting conformational flexibility.                      |
+| **NumRings**         | Ring Count: total number of distinct ring systems (aromatic and non-aromatic) in the molecule.                                                               |
+| **TPSA**             | Topological Polar Surface Area: sum of surface areas of polar atoms (O, N) and their attached hydrogens, used to predict membrane permeability.              |
+| **NumAromaticRings** | Number of Aromatic Rings: count of ring systems that follow Hückel’s rule and exhibit aromaticity.                                                          |
+| **SAS**              | Synthetic Accessibility Score: heuristic score (1–10) estimating how easy (1) or difficult (10) a molecule is to synthesize.                                  |
+| **QED**              | Quantitative Estimate of Drug-Likeness: composite metric (0–1) combining multiple properties (MW, LogP, H-bond counts, etc.) to estimate overall drug-likeness. |
 
 
 ### Data Preprocessing
