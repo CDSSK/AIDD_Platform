@@ -5,7 +5,7 @@ This platform processes SMILES data to predict molecular properties and perform 
 If you want to perform prediction, set the Loss Function option in the Modeling sidebar to MSELoss; if you want to perform classification, select BCEWithLogitsLoss.
 
 ### Data Labeling
-In your dataset, designate the SMILES column as "Smiles" and set the target variable to "Y".
+In your dataset, designate the SMILES column as "Smiles" and set the target variable to "Target Values".
 
 ### SMILES Preview
 | Property             | Description                                                                                                                                                  |
